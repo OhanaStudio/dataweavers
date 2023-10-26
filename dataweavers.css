@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@300;500;600&display=swap");
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    margin: 1.5rem 0 1rem;
+    font-family: "Assistant", sans-serif;
+    font-weight: 600;
+    line-height: 1.375;
+    color: $color_heading;
+}
+
+h1,
+.h1 {
+    font-size: 1.875rem;
+}
+
+h2,
+.h2 {
+    font-size: 1.5rem;
+}
+
+h3,
+.h3 {
+    font-size: 1.25rem;
+}
+
+h4,
+.h4 {
+    font-size: 1.125rem;
+}
+
+h5,
+.h5 {
+    font-size: 1em;
+    font-weight: 300;
+}
+
+h6,
+.h6 {
+    font-size: 0.875rem;
+    font-weight: 300;
+}
+
+b,
+strong {
+    font-weight: 600;
+}
+
+code {
+    background-color: #e2e7f4;
+}
+
+kbd {
+    font-family: "Assistant", sans-serif;
+}
+
+ol,
+ul,
+dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+li {
+    margin: 0 0 0;
+}
+
+.recent-articles li {
+    margin: 0 0 1rem;
+}
+
+th {
+    text-align: inherit;
+
+    background-color: #0b1424;
+    color: white;
+}
+
+th h5 {
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.badge,
+.recent-activity-item-parent {
+    color: white;
+    background-color: #1a202c;
+}
+
+.button {
+    padding: 8px 16px;
+}
+
+.button-primary {
+    border-color: rgba(253, 93, 71, 1);
+    background-color: rgba(253, 93, 71, 1);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.button-primary:hover {
+    border-color: darken(rgba(253, 93, 71, 1), 5%);
+    background-color: darken(rgba(253, 93, 71, 1), 4%);
+}
+
+.search-translucent [type="search"]:not(:focus)::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.search-translucent [type="search"]:not(:focus)::-moz-placeholder {
+    color: #ffffff;
+}
+
+.search-translucent [type="search"]:not(:focus):-moz-placeholder {
+    color: #ffffff;
+}
+
+.search-translucent [type="search"]:not(:focus):-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.link-anchor {
+    opacity: 0;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.link-anchor::before {
+    content: "#";
+}
+.table-flush th:first-child,
+.table-flush td:first-child {
+    padding-left: 16px;
+}
+
+.notification {
+    font-family: "Assistant", sans-serif;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1220px;
+    }
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    color: #ffffff;
+}
+
+.dropdown-item[aria-selected="true"]::after {
+    background-image: url("data:image/svg+xml,%3Csvg aria-hidden='true' xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='none' stroke='OrangeRed' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M1 7l3 3 7-7'%3E%3C/path%3E%3C/svg%3E");
+}
+.nav-line .nav-link::after {
+    border-radius: 4px;
+    margin-bottom: -2px;
+}
+
+.nav-line .nav-link:active {
+    border-bottom-color: $color_primary;
+}
+.nav-line .nav-link.is-active::after {
+    border-bottom-color: #fd5d47;
+}
+
+.text-gray-600 {
+    color: rgb(148 148 148);
+}
+
+.font-heading {
+    font-family: "Assistant", sans-serif;
+}
+
+.font-text {
+    font-family: "Assistant", sans-serif;
+}
+
+.bg-gray-100 {
+    background-color: #f3f3f3;
+}
+
+.badge-solved {
+    color: #fff;
+    background-color: #35c012;
+}
+
+a.badge-solved:focus,
+a.badge-solved:hover {
+    color: #fff;
+    background-color: darken(#35c012, 10%);
+}
+
+.actions-user button,
+.subscribe-article button,
+.subscribe-section button,
+.subscribe-topic button,
+.subscribe-organization button,
+.subscribe-link button,
+.subscribe-user button {
+    border: 1px solid rgba(253, 93, 71, 1);
+}
+
+.subscribe-article button,
+.subscribe-section button,
+.subscribe-topic button,
+.subscribe-organization button {
+    border-color: rgba(253, 93, 71, 1);
+}
+
+.subscribe-article button:hover,
+.subscribe-section button:hover,
+.subscribe-topic button:hover,
+.subscribe-organization button:hover {
+    background-color: darken(rgba(253, 93, 71, 1), 10%);
+}
+
+.form input[type="submit"] {
+    border-color: rgb(253, 93, 71);
+    background-color: rgb(253, 93, 71);
+}
+
+.form input[type="submit"]:hover {
+    border-color: darken(rgb(253, 93, 71), 5%);
+    background-color: darken(rgb(253, 93, 71), 4%);
+}
